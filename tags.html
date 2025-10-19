@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <header>
+        <h1>header</h1>
+    </header>
+    <h1>Hello</h1>
+    <h2>Hello 2</h2>
+    <p>paragraph</p>
+    <b><p>bolded paragraph</p></b>
+    <address>53 6th Avenue, New York , New York, 10011</address>
+    <br>
+    <hr>
+    <a href="google.com">Google</a>
+    <blockquote>Sally sells seashells at the seashore</blockquote>
+    <del>delete this text</del>
+    <p>HTML <dfn>Hypertext Markup Language</dfn></p>
+    <p><em>Emphasized Text</em></p>
+    <i>Text in a differnt mood</i>
+    
+    <label for="file">Download Progressing</label>
+    <progress id="file" value = "32" max="100">value</progress>
+
+    <pre>Sally sells seashells      at the 
+        seashore        hello
+    </pre>
+
+    <s>no longer correct text</s>
+
+    <samp>Hello sample output</samp>
+
+    <sub>5+8 <span style="color:blue">subscripted</span> text</sub>
+    <sup>4+10 supscripted text</sup>
+
+    <h1>click here</h1>
+    <button onclick="showContent()">show hidden content</button>
+
+    <script>
+        function showContent(){
+        let temp = document.getElementsByTagName("template")[0];
+        let clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+        }
+    </script>
+
+    <template>
+        <h1>Hidden content</h1>
+        <p>None</p>
+    </template>
+    <time datetime=""></time>
+    <!--Comment-->>
+    <p><abbr title="Out of Office">OOO</abbr></p>
+
+    <img src="" alt="">
+    <pre></pre>
+    <i></i>
+
+    <h2>Form</h2>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name=""fname> <br> <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name = "lname"><br><br>
+            <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                </optgroup>
+                <optgroup label="Swedish Cars">  
+                    <option value="Mercedes">Mercedes</option>
+                </optgroup>
+            </select>
+            <br>
+            <!-- <label for="device">Choose your device from the list: </label> 
+            <input list="device" name="device" id="device">
+            <datalist id="device">
+                <option value="Phone">
+                <option value="Tablet">
+                <option value="Computer">
+            </datalist> -->
+
+            <label for="device">Choose your device from the list:</label>
+            <input list="devices" name="device" id="device">
+            <datalist id="devices">
+            <option value="phone">
+            <option value="computer">
+            </datalist>
+            <br> <br>
+            <iframe src="https://teachingarchive.notion.site/Tu-Week-2-9-9-2691497788cd80b6b7a2d90fb57c774e" frameborder="1" title="title"></iframe>
+            <iframe src="https://notion.com" title="W3Schools Free Online Web Tutorials"></iframe>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <img src="/img/image1.png" alt="schedule" width="500px">
+    
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
+    <ul starts="100">
+        <li>Socks</li>
+        <li>Sandles</li>
+        <li>Slippers</li>
+    </ul>
+    <ol>
+        <li>Magsafe</li>
+        <li>Lightning</li>
+        <li>USBC</li>
+    </ol>
+
+    <dl>
+        <dt>Dog</dt>
+        <dd>Animal 1 description</dd>
+        <dt>Cat</dt>
+        <dd>Animal 2 description</dd>
+    </dl>
+    <style>table{border: 1px solid black;}</style>
+    
+    <table>
+        <colgroup>
+            <col span="1" style="background-color:red">
+            <col style="background-color:yellow">
+          </colgroup>
+        <caption>Month and Year</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>2025</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td>2025</td>
+            </tr>
+        </tfoot>
+    </table>
+    <footer>
+        <p>footer</p>
+    </footer>
+    <section></section>
+    <hr>
+    <ol>
+        <li><em><a href="google.com">Collection 1</a></em></li>
+        <li><a href="google.com"></a>Collection 2</li>
+        <li><a href="google.com">Collection 3</a></li>
+        <li><b><a href="google.com">Collection 4</a></b></li>
+    </ol>
+    <ul>
+        <li><em><a href="google.com">Collection 1</a></em></li>
+       <li><a href="google.com"></a>Collection 2</li>
+        <li><a href="google.com">Collection 3</a></li>
+        <li><b><a href="google.com">Collection 4</a></b></li>
+    </ul>
+    
+</body>
+</html>

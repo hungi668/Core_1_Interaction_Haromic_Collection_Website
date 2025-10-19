@@ -1,5 +1,5 @@
 function setup() {
-    let canvas = createCanvas(2000, 400, WEBGL);
+    let canvas = createCanvas(1000, 900, WEBGL);
     canvas.parent('sketch-container8');
     background(244);
     angleMode(DEGREES);

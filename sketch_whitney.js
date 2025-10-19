@@ -1,5 +1,5 @@
 function setup() {
-    let canvas = createCanvas(2000, 400);
+    let canvas = createCanvas(2000, 900);
     canvas.parent('sketch-container4');
     background(244);
     strokeWeight(5);

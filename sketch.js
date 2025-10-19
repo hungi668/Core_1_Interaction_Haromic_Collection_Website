@@ -4,7 +4,7 @@ let rotate3 = 2;
 let rotate4 = 2.5;
 
 function setup() {
-    let canvas = createCanvas(900, 400);
+    let canvas = createCanvas(1500, 900);
     canvas.parent('sketch-container');
     rectMode(CENTER);
     angleMode(DEGREES)
