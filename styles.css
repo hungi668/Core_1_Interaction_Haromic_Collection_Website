@@ -23,10 +23,21 @@
     overflow: hidden;
 }
 
-.head-img-1 img,
 .head-img img {
     width: 100%;
-    max-height: 800px;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: 0% 78%;
+    display: block;
+    filter: grayscale(100%);
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    transition: filter 0.3s ease;
+}
+
+.head-img-1 img{
+    width: 100%;
+    max-height: 450px;
     object-fit: cover;
     object-position: 0% 78%;
     display: block;
@@ -285,6 +296,7 @@ footer a {
 #sketch-container9,
 #sketch-container10 {
     background-color: var(--color-grey2);
+    height: 800px;
 }
 
 canvas {

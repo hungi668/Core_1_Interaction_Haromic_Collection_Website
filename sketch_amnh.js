@@ -2,7 +2,7 @@ let symmetry = 6;
 let angle = 360 / symmetry;
 
 function setup() {
-    let canvas = createCanvas(1000, 400);
+    let canvas = createCanvas(1000, 900);
     canvas.parent('sketch-container2');
     angleMode(DEGREES);
     background(244);
